@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Sofa EGENSE-2",
+        "image": "couch-1.png",
+        "price": "99.99$",
+        "description": "2-seater sofa with fabric upholstery. Seat and back cushions are filled with foam. Solid wood legs. 142x80 cm, height 80 cm"
+    },
+    {
+        "title": "Sofa EGENSE-2",
+        "image": "couch-2.png",
+        "price": "99.99$",
+        "description": "2-seater sofa with fabric upholstery. Back and seat cushions are filled with foam. Wooden legs. 142x80 cm, height 80 cm"
+    },
+    {
+        "title": "Sofa GEDVED-2",
+        "image": "couch-3.png",
+        "price": "49.99$",
+        "description": "2-seater sofa with fabric upholstery. Seat and back cushions are filled with foam. Solid wood legs. 142x80 cm, height 80 cm"
+    },
+    {
+        "title": "Sofa GEDVED-2",
+        "image": "couch-4.png",
+        "price": "49.99$",
+        "description": "2-seater sofa with fabric upholstery. Filling the seat cushions with pocket springs and foam. Back cushions are filled with foam. Solid wood legs. The angle is unchanged. 154x84 cm, height 85 cm"
+    },
+    {
+        "title": "Sofa GISTRUP-2",
+        "image": "couch-5.png",
+        "price": "44.99$",
+        "description": "2-seater sofa with teddy fabric upholstery. Seat and back cushions are filled with foam. Wooden legs. 137x76 cm, height 78 cm"
+    }
+]
