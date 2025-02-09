@@ -52,8 +52,8 @@ function getCardHTML(product) {
     <div class="product-card my-card">
                 <img src="img/${product.image}" alt="Product 1" class="product-image">
                 <div>
-                <h2>${product.title}</h2>
-                <p>${product.description}</p>
+                <h2 class="product_title">${product.title}</h2>
+                <p class="product_text">${product.description}</p>
                 <p class="price"> ${product.price}</p>
                 <button class="add-to-cart cart-btn" data-product='${productData}'>Add to Cart</button>
                 </div>

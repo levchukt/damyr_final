@@ -388,3 +388,30 @@ footer{
 footer p{
     text-align: center;
 }
+
+
+@media (max-width: 1250px){
+    .link{
+        font-size: 24px;
+    }
+
+    .product_title{
+        font-size: 32px;
+    }
+    .product_text{
+        font-size: 18px;
+    }
+    .add-to-cart{
+        font-size: 24px;
+    }
+    .price{
+        font-size: 40px;
+    }
+    .banner{
+        height: 60vh;
+    }
+    .banner_text{
+        font-size: 30px;
+        top: 150px;
+    }
+}
