@@ -61,6 +61,20 @@ function getCardHTML(product) {
     `;
 }
 
+
+function showCart() {
+    let cartForm = document.querySelector('.cartForm')
+
+    cartForm.style.display = 'flex'
+    let form_btn = document.querySelector('.form_btn')
+    cartForm.addEventListener('click', function () {
+        cartForm.style.display = 'none'
+        form_btn.addEventListener('click', function () {
+          cartForm.style.display = 'none'  
+        })
+    })
+}
+
 // Відображаємо товари на сторінці
 getProducts().then(function (products) {
     let productsList = document.querySelector('.catalog')
@@ -75,9 +89,11 @@ getProducts().then(function (products) {
     // Навішуємо обробник подій на кожну кнопку "Купити"
     if (buyButtons) {
         buyButtons.forEach(function (button) {
-            button.addEventListener('click', addToCart);
+            button.addEventListener('click', showCart);
         });
     }
+
+    let 
 })
 
 
